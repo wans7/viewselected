@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+
+# Extension identifier — must be unique, lowercase, snake_case
+id = "view_selected"
+version = "1.0.0"
+name = "View Selected"
+tagline = "Smart Selection View"
+maintainer = "wans7"
+
+# Type: "add-on" for traditional addons, "theme" for themes
+type = "add-on"
+
+# Minimum Blender version required
+blender_version_min = "4.2.0"
+
+# License — SPDX identifier. Using GPL because it's compatible with Blender's
+# GPL license and is required for code that uses Blender's Python API.
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# No special permissions needed (no network, no file I/O outside Blender)
+# permissions = {}
+
+# Optional: tags help users find the extension
+tags = ["3D View"]
